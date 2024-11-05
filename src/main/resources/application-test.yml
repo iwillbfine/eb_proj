@@ -5,9 +5,10 @@ server:
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://localhost:3306/menudb
+#    url: jdbc:mariadb://localhost:3306/menudb
+    url: jdbc:mariadb://camp-rdb.cjqeyey6cyw8.ap-northeast-2.rds.amazonaws.com:3306/menudb
     username: swcamp
-    password: swcamp
+    password: swcampswcamp
 
 # jpa config
   jpa:
