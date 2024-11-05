@@ -38,8 +38,5 @@ out/
 
 # Ignore YAML and properties files
 /src/main/resources/
-/src/main/resources/application-test.yml
-/src/main/resources/application.yml
-*.yml
 # PasswordGenerator.java 파일을 Git에서 무시
 **/PasswordGenerator.java
