@@ -36,12 +36,4 @@ class MenuControllerTests {
                 .andExpect(jsonPath("$.menuName").value("우럭스무디"))
                 .andDo(print());
     }
-
-    @DisplayName("codereview 설치 확인")
-    @Test
-    public void checkCodereviewTest() throws Exception {
-        mockMvc.perform(get("/health"))
-                .andExpect(status().isOk())
-                .andDo(print());
-    }
 }
